@@ -79,7 +79,8 @@ def main():
 		if carrier == "":
 			print(" - Getting Carrier		[ " + color.RED + "FAILED " + color.END + "]")
 		else:
-			print(" - Getting Carrier		[ " + color.GREEN + "OK " + color.END + "]")
+	
+		print(" - Getting Carrier		[ " + color.GREEN + "OK " + color.END + "]")
 
 		time.sleep(0.2)
 		if line_type == None:
@@ -98,7 +99,8 @@ def main():
 		print(" - Device: " + str(line_type))
 	else:
 		print("[?] Usage:")
-		print("	./%s <phone-number>" % (sys.argv[0]))
+		print("	./%s <phone-number>"  R
+eceiver 13862791049  (sys.argv[0]))
 		print("	./%s +919876543210" % (sys.argv[0]))
 
 main()
